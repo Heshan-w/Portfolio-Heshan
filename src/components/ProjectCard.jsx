@@ -12,7 +12,7 @@ const ProjectCard = ({
   const [expand, setExpand] = useState(false);
   return (
     <div className="flex flex-col justify-center items-center font-mono text-neutral-200">
-      <div className="flex flex-col items-center justify-center m-10 border min-w-full md:min-w-[900px] rounded-lg px-10">
+      <div className="flex flex-col items-center justify-center m-10 border min-w-full md:min-w-[1200px] rounded-lg px-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl mt-8 mb-4">{title}</h1>
           <h1 className="text-2xl mb-4">{shortDescription}</h1>
