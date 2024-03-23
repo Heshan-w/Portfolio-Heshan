@@ -50,16 +50,16 @@ const Projects = () => {
           for data storage, Focalize delivers a seamless and effective solution 
           for navigating the digital landscape with focus and efficiency."
         images={[
-          "/src/assets/focalize1.jpg",
-          "/src/assets/focalize2.jpg",
-          "/src/assets/focalize3.jpg",
+          "/assets/focalize1.jpg",
+          "/assets/focalize2.jpg",
+          "/assets/focalize3.jpg",
         ]}
         tech={[
-          "/src/assets/typescript.svg",
-          "/src/assets/react.svg",
-          "/src/assets/tailwindcss.svg",
-          "/src/assets/python.svg",
-          "/src/assets/firebase.svg",
+          "/assets/typescript.svg",
+          "/assets/react.svg",
+          "/assets/tailwindcss.svg",
+          "/assets/python.svg",
+          "/assets/firebase.svg",
         ]}
         title="Focalize"
         link="......./"
@@ -75,16 +75,16 @@ const Projects = () => {
           while Node.js facilitates efficient server-side execution, optimizing 
           performance for an enhanced user experience."
         images={[
-          "/src/assets/bookstore1.png",
-          "/src/assets/bookstore4.png",
-          "/src/assets/bookstore3.png",
+          "/assets/bookstore1.png",
+          "/assets/bookstore4.png",
+          "/assets/bookstore3.png",
         ]}
         tech={[
-          "/src/assets/mongodb.svg",
-          "/src/assets/express-js.png",
-          "/src/assets/react.svg",
-          "/src/assets/nodejs.svg",
-          "/src/assets/tailwindcss.svg",
+          "/assets/mongodb.svg",
+          "/assets/express-js.png",
+          "/assets/react.svg",
+          "/assets/nodejs.svg",
+          "/assets/tailwindcss.svg",
         ]}
         title="Book Management System"
         link="......./"
@@ -105,15 +105,15 @@ const Projects = () => {
         as product details and user profiles. The project demonstrates the effective integration 
         of front-end and back-end technologies to create a robust and functional e-commerce website."
         images={[
-          "/src/assets/homteq1.png",
-          "/src/assets/homteq2.png",
-          "/src/assets/homteq3.png",
+          "/assets/homteq1.png",
+          "/assets/homteq2.png",
+          "/assets/homteq3.png",
         ]}
         tech={[
-          "/src/assets/html5.svg",
-          "/src/assets/CSS3.svg",
-          "/src/assets/php.svg",
-          "/src/assets/mysql.svg",
+          "/assets/html5.svg",
+          "/assets/CSS3.svg",
+          "/assets/php.svg",
+          "/assets/mysql.svg",
         ]}
         title="hometeq"
         link="......./"
@@ -128,14 +128,14 @@ const Projects = () => {
          for data storage. With an intuitive React-based interface, users can efficiently manage their passwords. Overall, the project 
          showcases effective integration of frontend and backend technologies to provide a secure password management solution."
         images={[
-          "/src/assets/passManager1.png",
-          "/src/assets/passManager2.png",
+          "/assets/passManager1.png",
+          "/assets/passManager2.png",
         ]}
         tech={[
-          "/src/assets/express-js.png",
-          "/src/assets/react.svg",
-          "/src/assets/nodejs.svg",
-          "/src/assets/mysql.svg",
+          "/assets/express-js.png",
+          "/assets/react.svg",
+          "/assets/nodejs.svg",
+          "/assets/mysql.svg",
         ]}
         title="Password Manager"
         link="......./"
@@ -152,8 +152,8 @@ const Projects = () => {
         serialization mechanism for data persistence, enhancing the system's robustness. Overall, the Shopping Page 
         project offers a seamless and efficient solution for managing online shopping interactions while demonstrating 
         the power of OOP principles in software development."
-        images={["/src/assets/oop1.png", "/src/assets/oop2.png"]}
-        tech={["/src/assets/java.svg"]}
+        images={["/assets/oop1.png", "/assets/oop2.png"]}
+        tech={["/assets/java.svg"]}
         title="Shopping Page"
         link="......./"
       />
@@ -170,7 +170,7 @@ const Projects = () => {
             className="fixed bottom-5 right-5 cursor-pointer p-2 mr-7"
           >
             <img
-              src="/src/assets/upArrow.png"
+              src="/assets/upArrow.png"
               alt="scroll to top"
               className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px]"
             />

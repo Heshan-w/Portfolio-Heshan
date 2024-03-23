@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "/src/animations.css";
+import "/animations.css";
 import TechCard from "../components/TechCard";
 import {
   Card,
@@ -101,20 +101,20 @@ const Home = () => {
               <Divider className="bg-neutral-200" />
               <CardBody>
                 <div className="flex flex-wrap items-center justify-center">
-                  <TechCard image="/src/assets/html5.svg" name="HTML" />
+                  <TechCard image="/assets/html5.svg" name="HTML" />
 
-                  <TechCard image="/src/assets/css3.svg" name="CSS" />
-                  <TechCard image="/src/assets/js.svg" name="JavaScript" />
+                  <TechCard image="/assets/css3.svg" name="CSS" />
+                  <TechCard image="/assets/js.svg" name="JavaScript" />
                   <TechCard
-                    image="/src/assets/typescript.svg"
+                    image="/assets/typescript.svg"
                     name="Typescript"
                   />
-                  <TechCard image="/src/assets/react.svg" name="React" />
+                  <TechCard image="/assets/react.svg" name="React" />
                   <TechCard
-                    image="/src/assets/tailwindcss.svg"
+                    image="/assets/tailwindcss.svg"
                     name="Tailwind"
                   />
-                  <TechCard image="/src/assets/figma.svg" name="Figma" />
+                  <TechCard image="/assets/figma.svg" name="Figma" />
                 </div>
               </CardBody>
             </Card>
@@ -129,17 +129,17 @@ const Home = () => {
               <Divider className="bg-neutral-200" />
               <CardBody>
                 <div className="flex flex-wrap items-center justify-center">
-                  <TechCard image="/src/assets/nodejs.svg" name="Node.js" />
-                  <TechCard image="/src/assets/python.svg" name="Python" />
-                  <TechCard image="/src/assets/php.svg" name="PHP" />
-                  <TechCard image="/src/assets/java.svg" name="Java" />
+                  <TechCard image="/assets/nodejs.svg" name="Node.js" />
+                  <TechCard image="/assets/python.svg" name="Python" />
+                  <TechCard image="/assets/php.svg" name="PHP" />
+                  <TechCard image="/assets/java.svg" name="Java" />
                   <TechCard
-                    image="/src/assets/express-js.png"
+                    image="/assets/express-js.png"
                     name="Express.js"
                   />
-                  <TechCard image="/src/assets/mysql.svg" name="MySQL" />
-                  <TechCard image="/src/assets/mongodb.svg" name="MongoDB" />
-                  <TechCard image="/src/assets/postman.svg" name="Postman" />
+                  <TechCard image="/assets/mysql.svg" name="MySQL" />
+                  <TechCard image="/assets/mongodb.svg" name="MongoDB" />
+                  <TechCard image="/assets/postman.svg" name="Postman" />
                 </div>
               </CardBody>
             </Card>
@@ -159,7 +159,7 @@ const Home = () => {
             className="fixed bottom-5 right-5 cursor-pointer p-2 mr-7"
           >
             <img
-              src="/src/assets/upArrow.png"
+              src="/assets/upArrow.png"
               alt="scroll to top"
               className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px]"
             />
