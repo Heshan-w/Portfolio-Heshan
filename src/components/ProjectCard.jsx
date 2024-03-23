@@ -54,7 +54,7 @@ const ProjectCard = ({
             >
               <a href={link} target="blank">
                 <img
-                  src="/src/assets/link.png"
+                  src="/assets/link.png"
                   alt="link"
                   className="w-[30px] h-[30px] "
                 />

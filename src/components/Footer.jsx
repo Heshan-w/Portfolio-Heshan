@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row justify-center items-center ">
         <a href="https://github.com/Heshan-w" target="blank">
           <img
-            src="/src/assets/github.svg"
+            src="/assets/github.svg"
             alt="github logo"
             className="w-[30px] h-[30px] mx-2 sm:mx-7 my-1 sm:my-0 cursor-pointer"
           />
@@ -17,7 +17,7 @@ const Footer = () => {
           target="blank"
         >
           <img
-            src="/src/assets/linkedin.svg"
+            src="/assets/linkedin.svg"
             alt="linkedIn logo"
             className="w-[30px] h-[30px] mx-2 sm:mx-7 my-1 sm:my-0 cursor-pointer"
           />
@@ -25,7 +25,7 @@ const Footer = () => {
 
         <a href="mailto:htwanigasinghe@gmail.com" target="_blank">
           <img
-            src="/src/assets/mail.svg"
+            src="/assets/mail.svg"
             alt="email logo"
             className="w-[30px] h-[40px] mx-2 sm:mx-7 my-1 sm:my-0 cursor-pointer"
           />
