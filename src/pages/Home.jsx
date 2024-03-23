@@ -105,15 +105,9 @@ const Home = () => {
 
                   <TechCard image="/assets/css3.svg" name="CSS" />
                   <TechCard image="/assets/js.svg" name="JavaScript" />
-                  <TechCard
-                    image="/assets/typescript.svg"
-                    name="Typescript"
-                  />
+                  <TechCard image="/assets/typescript.svg" name="Typescript" />
                   <TechCard image="/assets/react.svg" name="React" />
-                  <TechCard
-                    image="/assets/tailwindcss.svg"
-                    name="Tailwind"
-                  />
+                  <TechCard image="/assets/tailwindcss.svg" name="Tailwind" />
                   <TechCard image="/assets/figma.svg" name="Figma" />
                 </div>
               </CardBody>
@@ -133,10 +127,7 @@ const Home = () => {
                   <TechCard image="/assets/python.svg" name="Python" />
                   <TechCard image="/assets/php.svg" name="PHP" />
                   <TechCard image="/assets/java.svg" name="Java" />
-                  <TechCard
-                    image="/assets/express-js.png"
-                    name="Express.js"
-                  />
+                  <TechCard image="/assets/express-js.png" name="Express.js" />
                   <TechCard image="/assets/mysql.svg" name="MySQL" />
                   <TechCard image="/assets/mongodb.svg" name="MongoDB" />
                   <TechCard image="/assets/postman.svg" name="Postman" />

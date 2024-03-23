@@ -111,7 +111,7 @@ const Projects = () => {
         ]}
         tech={[
           "/assets/html5.svg",
-          "/assets/CSS3.svg",
+          "/assets/css3.svg",
           "/assets/php.svg",
           "/assets/mysql.svg",
         ]}
@@ -127,10 +127,7 @@ const Projects = () => {
          storage using Node.js's crypto module, ensuring confidentiality. At the moment the project utilizes XAMPP's local database 
          for data storage. With an intuitive React-based interface, users can efficiently manage their passwords. Overall, the project 
          showcases effective integration of frontend and backend technologies to provide a secure password management solution."
-        images={[
-          "/assets/passManager1.png",
-          "/assets/passManager2.png",
-        ]}
+        images={["/assets/passManager1.png", "/assets/passManager2.png"]}
         tech={[
           "/assets/express-js.png",
           "/assets/react.svg",

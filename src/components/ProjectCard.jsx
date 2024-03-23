@@ -24,7 +24,7 @@ const ProjectCard = ({
                 key={index}
                 src={image}
                 alt={title}
-                className="w-full md:w-[250px] h-[200px] mx-2 rounded-lg"
+                className="w-full md:w-[350px] h-[350px] m-2 object-contain object-center"
               />
             ))}
           </div>
