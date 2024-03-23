@@ -147,7 +147,7 @@ const Home = () => {
         >
           <div
             onClick={scrollToTop}
-            className="fixed bottom-5 right-5 cursor-pointer p-2 mr-7"
+            className="fixed bottom-5 right-5 cursor-pointer p-1 mr-1"
           >
             <img
               src="/assets/upArrow.png"
