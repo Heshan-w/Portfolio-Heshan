@@ -63,7 +63,7 @@ const Home = () => {
               <Image
                 alt="image of me"
                 className="object-cover rounded-xl"
-                src="/src/assets/userImage.jpg"
+                src="./src/assets/userImage.jpg"
                 style={{ width: "100%", height: "auto", maxWidth: "400px" }}
               />
             </CardBody>
