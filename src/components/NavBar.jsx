@@ -25,9 +25,14 @@ const NavBar = () => {
         <Link to="/projects" className="px-4 sm:px-12 hover:underline">
           Projects
         </Link>
-        <Link to="" className="px-4 sm:px-12 hover:underline">
+        <a
+          href="/assets/updated_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 sm:px-12 hover:underline"
+        >
           CV
-        </Link>
+        </a>
       </div>
     </div>
   );
