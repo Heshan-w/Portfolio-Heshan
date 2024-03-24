@@ -28,6 +28,12 @@ const Projects = () => {
   // the addEventListener function takes two arguments, the event to listen for and the function to call when the event occurs
   useEffect(() => {
     window.addEventListener("scroll", toggleVisibility);
+    // Scroll to top on mount
+    window.scrollTo(0, 0);
+    // Clean up function to prevent memory leaks
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
   }, []);
 
   return (
