@@ -68,7 +68,6 @@ const Projects = () => {
           "/assets/firebase.svg",
         ]}
         title="Focalize"
-        link="......./"
       />
 
       {/* BookStore */}
@@ -93,7 +92,7 @@ const Projects = () => {
           "/assets/tailwindcss.svg",
         ]}
         title="Book Management System"
-        link="......./"
+        link='https://github.com/Heshan-w/BookStore-MERN'
       />
 
       {/* E-commerce website */}
@@ -122,10 +121,10 @@ const Projects = () => {
           "/assets/mysql.svg",
         ]}
         title="hometeq"
-        link="......./"
+        link="https://github.com/Heshan-w/homteq"
       />
 
-      {/* E-commerce website */}
+      {/* password Manager */}
       <ProjectCard
         shortDescription="- Encrypts And Stores User Passwords -"
         longDescription="The Online Password Manager project is a secure solution developed with React, Node.js, Express, and MySQL.
@@ -141,10 +140,10 @@ const Projects = () => {
           "/assets/mysql.svg",
         ]}
         title="Password Manager"
-        link="......./"
+        link="https://github.com/Heshan-w/Password-Manager"
       />
 
-      {/* E-commerce website */}
+      {/* OOP E-commerce website */}
       <ProjectCard
         shortDescription="- Core OOP Principals -"
         longDescription="The Shopping Page project serves as a centralized platform for both managers 
@@ -158,7 +157,7 @@ const Projects = () => {
         images={["/assets/oop1.png", "/assets/oop2.png"]}
         tech={["/assets/java.svg"]}
         title="Shopping Page"
-        link="......./"
+        link="https://github.com/Heshan-w/OOP_CW"
       />
 
       {isVisible && (
