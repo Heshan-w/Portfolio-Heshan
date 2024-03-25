@@ -45,15 +45,15 @@ const Home = () => {
     <div className="flex flex-col items-center justify-center bg-black">
       <div className="flex flex-col md:flex-row justify-between m-3 w-full md:w-[1200px]">
         <div className="flex flex-col m-10 px-5 font-mono justify-center items-center animate-slideInFromLeft text-neutral-200">
-          <div className="flex flex-col py-8 items-start">
-            <h1 className="text-4xl md:text-7xl  font-extrabold">
+          <div className="flex flex-col py-8 items-start justify-start">
+            <h1 className="text-3xl md:text-7xl font-extrabold">
               Hi there 👋
             </h1>
-            <p className="text-lg md:text-5xl  my-5">
+            <p className="text-lg md:text-5xl my-5">
               I'm <span className="text-neutral-600">Heshan Wanigasinghe</span>
             </p>
 
-            <p className="text-lg md:text-xl text-center">
+            <p className="text-lg md:text-xl">
               Computer Science Undergraduate
             </p>
 
@@ -72,7 +72,7 @@ const Home = () => {
                 alt="image of me"
                 className="object-cover rounded-xl"
                 src="/assets/userImage.jpg"
-                style={{ width: "100%", height: "auto", maxWidth: "400px" }}
+                style={{ width: "100%", height: "auto", maxWidth: "300px" }}
               />
             </CardBody>
           </Card>
@@ -82,10 +82,10 @@ const Home = () => {
       {/* the other section to fill out the page */}
       <div className="flex justify-center items-center w-full md:w-[1200px]">
         <div className="flex flex-col justify-center items-center m-10 font-mono">
-          <span className="text-4xl md:text-8xl mb-10 text-neutral-600">
+          <span className="text-3xl md:text-8xl mb-10 text-neutral-600">
             About Me
           </span>
-          <span className="text-xl md:text-2xl text-neutral-200 text-center">
+          <span className="text-lg md:text-2xl text-neutral-200 text-center">
             Hi, I'm Heshan Wanigasinghe, a computer science student with a
             passion for coding, problem-solving and learning. I love turning
             ideas into practical solutions that address real-life challenges.
@@ -94,16 +94,17 @@ const Home = () => {
             technologies, check out below to see a list of technologies I have
             worked with.
           </span>
-          <span className="text-4xl md:text-6xl mt-28 text-center text-neutral-600">
+          <span className="text-3xl md:text-6xl mt-28 text-center text-neutral-600">
             Frameworks/Libraries, Languages & Tools
           </span>
 
           <div className="flex justify-center items-center w-full md:w-[900px] flex-col mt-10 rounded-xl shadow-md relative ">
-            {/* The frontend information */}
             <Card className="max-w-[800px] bg-black border border-neutral-200 m-5">
               <CardHeader className="flex gap-3 justify-center">
                 <div className="flex flex-col items-center justify-center">
-                  <p className="text-3xl text-neutral-200">Frontend</p>
+                  <p className="text-2xl md:text-3xl text-neutral-200">
+                    Frontend
+                  </p>
                 </div>
               </CardHeader>
               <Divider className="bg-neutral-200" />
@@ -125,7 +126,9 @@ const Home = () => {
             <Card className="max-w-[800px] bg-black border border-neutral-200 m-5">
               <CardHeader className="flex gap-3 justify-center">
                 <div className="flex flex-col items-center justify-center">
-                  <p className="text-3xl text-neutral-200">Backend</p>
+                  <p className="text-2xl md:text-3xl text-neutral-200">
+                    Backend
+                  </p>
                 </div>
               </CardHeader>
               <Divider className="bg-neutral-200" />
