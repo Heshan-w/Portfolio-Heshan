@@ -15,10 +15,10 @@ const ProjectCard = ({
       <div className="flex flex-col items-center justify-center m-10 border min-w-full md:min-w-[1200px] rounded-lg px-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl mt-8 mb-4">{title}</h1>
-          <h1 className="text-2xl mb-4">{shortDescription}</h1>
+          <h1 className="text-center text-2xl mb-4">{shortDescription}</h1>
           <Divider className="bg-neutral-200" />
 
-          <div className="flex flex-wrap items-center justify-center mt-6">
+          <div className="flex flex-wrap items-center justify-center mt-1">
             {images.map((image, index) => (
               <img
                 key={index}
@@ -29,8 +29,8 @@ const ProjectCard = ({
             ))}
           </div>
 
-          <div className="flex flex-wrap items-center justify-between my-8 min-w-full md:min-w-[1000px] px-6 ">
-            <div className="flex items-center justify-center">
+          <div className="flex flex-wrap items-center justify-between my-2 min-w-full md:min-w-[1000px] px-6 flex-col md:flex-row">
+            <div className="flex items-center justify-center flex-wrap">
               <div className="flex flex-col items-center">
                 <p className="text-lg mx-2">Technologies</p>
                 <p className="text-lg mx-2">used</p>
@@ -50,7 +50,7 @@ const ProjectCard = ({
               content="View On GitHub"
               placement="bottom"
               showArrow={true}
-              className="bg-neutral-200"
+              className="bg-neutral-200 mt-4 md:mt-0"
             >
               <a href={link} target="blank">
                 <img
@@ -64,7 +64,7 @@ const ProjectCard = ({
 
           <Button
             onClick={() => setExpand(!expand)}
-            className="text-lg mb-4 max-lg:"
+            className="text-lg my-4 max-lg:"
           >
             {expand ? "Close section" : "Learn More"}
           </Button>
