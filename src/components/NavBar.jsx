@@ -17,7 +17,7 @@ const NavBar = () => {
         </Tooltip>
       </div>
 
-      <div className="flex flex-col sm:flex-row text-neutral-200 text-xl ">
+      <div className="flex flex-col sm:flex-row text-neutral-200 text-xl space-y-2 sm:space-y-0">
         {/* Link component is used to create a link to a different route in the application */}
         <Link to="/" className="px-4 sm:px-12 hover:underline">
           Home
