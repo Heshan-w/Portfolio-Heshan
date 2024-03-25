@@ -38,7 +38,7 @@ const Projects = () => {
 
   return (
     <div className="flex flex-col items-center bg-black p-4 md:p-8 lg:p-12">
-      <span className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl mb-10 text-neutral-600">
+      <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-10 text-neutral-600">
         Projects
       </span>
 
@@ -175,7 +175,7 @@ const Projects = () => {
             <img
               src="/assets/upArrow.png"
               alt="scroll to top"
-              className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px]"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14"
             />
           </div>
         </Tooltip>
