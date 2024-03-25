@@ -26,7 +26,7 @@ const NavBar = () => {
           Projects
         </Link>
         <a
-          href="/assets/updated_CV.pdf"
+          href="/assets/cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 sm:px-12 hover:underline"
