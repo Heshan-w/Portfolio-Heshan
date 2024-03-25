@@ -52,7 +52,7 @@ const ProjectCard = ({
               showArrow={true}
               className="bg-neutral-200 mt-4 md:mt-0"
             >
-              <a href={link} target="blank">
+              <a href={link} target="_blank">
                 <img
                   src="/assets/link.png"
                   alt="link"

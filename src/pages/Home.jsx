@@ -12,6 +12,7 @@ import {
 } from "@nextui-org/react";
 
 const Home = () => {
+  //state to check if the scroll button should be visible
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {

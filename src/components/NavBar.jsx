@@ -11,7 +11,7 @@ const NavBar = () => {
           showArrow={true}
           className="bg-neutral-200"
         >
-          <a href="https://github.com/Heshan-w" target="blank">
+          <a href="https://github.com/Heshan-w" target="_blank">
             Heshan-w
           </a>
         </Tooltip>

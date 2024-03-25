@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-center p-4 bg-black text-neutral-200 border-t-2 border-neutral-200">
       <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 space-x-0 sm:space-x-7">
-        <a href="https://github.com/Heshan-w" target="blank">
+        <a href="https://github.com/Heshan-w" target="_blank">
           <img
             src="/assets/github.svg"
             alt="github logo"
@@ -14,7 +14,7 @@ const Footer = () => {
 
         <a
           href="https://www.linkedin.com/in/heshan-wanigasinghe-65a930263/"
-          target="blank"
+          target="_blank"
         >
           <img
             src="/assets/linkedin.svg"
